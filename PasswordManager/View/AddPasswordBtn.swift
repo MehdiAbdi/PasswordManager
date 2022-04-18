@@ -8,22 +8,21 @@
 import SwiftUI
 
 struct AddPasswordBtn: View {
+    var action: () -> ()
+    
     var body: some View {
-        VStack {
-            Spacer()
+        ZStack {
+            Rectangle()
+                .stroke(lineWidth: 4)
+                .frame(width: 73, height: 50)
             
-            ZStack {
-                Rectangle()
-                    .stroke(lineWidth: 4)
-                    .frame(width: 73, height: 50)
+            Button {
+                action()
                 
-                Button {
-                    
-                } label: {
-                    Image(systemName: "plus.square.fill")
-                        .font(.system(size: 33, weight: .heavy, design: .rounded))
-                        .foregroundColor(.black)
-                }
+            } label: {
+                Image(systemName: "plus.square.fill")
+                    .font(.system(size: 33, weight: .heavy, design: .rounded))
+                    .foregroundColor(.black)
             }
         }
     }
@@ -31,6 +30,6 @@ struct AddPasswordBtn: View {
 
 struct AddPasswordBtn_Previews: PreviewProvider {
     static var previews: some View {
-        AddPasswordBtn()
+        AddPasswordBtn { }
     }
 }

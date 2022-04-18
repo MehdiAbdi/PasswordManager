@@ -9,12 +9,10 @@ import SwiftUI
 
 @main
 struct PasswordManagerApp: App {
-    @ObservedObject var safeRealmVM = SafeRealmViewModel()
-    @State var showPasswordManagerView = false
-    
     var body: some Scene {
         WindowGroup {
             PasswordManagerView()
         }
     }
 }
+

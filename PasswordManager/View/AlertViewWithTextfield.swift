@@ -12,6 +12,7 @@ struct AlertViewWithTextfield: View {
     //MARK: - Properties
     @Environment(\.presentationMode) private var presentationMode
     @State private var alertPassword = String()
+    @State var title: String
     var action: (_ text: String) -> ()
     
     //MARK: - body
@@ -21,7 +22,7 @@ struct AlertViewWithTextfield: View {
                 .stroke(lineWidth: 5)
 
             VStack {
-                Text("Enter Your Password")
+                Text(title)
                     .padding()
                 
                 passwordTextField()
@@ -31,21 +32,21 @@ struct AlertViewWithTextfield: View {
                 doneBtn()
                     .padding()
             }
-        }.frame(width: 270, height: 190)
+        }.frame(width: 290, height: 190)
     }
     
     //MARK: - View Component
-    func passwordTextField() -> some View {
+   private func passwordTextField() -> some View {
         return ZStack {
             Rectangle()
                 .stroke(lineWidth: 3)
                 .frame(width: 240, height: 40)
-            TextField("Password", text: $alertPassword)
+            SecureField("Password", text: $alertPassword)
                 .padding(.leading, 30)
         }
     }
     
-    func doneBtn() -> some View {
+    private func doneBtn() -> some View {
         return ZStack {
             Rectangle()
                 .stroke(lineWidth: 3)
@@ -65,6 +66,6 @@ struct AlertViewWithTextfield: View {
 
 struct AlertViewWithTextfield_Previews: PreviewProvider {
     static var previews: some View {
-        AlertViewWithTextfield { text in }
+        AlertViewWithTextfield(title: "Enter Password") { text in }
     }
 }

@@ -21,5 +21,6 @@ enum RealmConfiguration {
         }
     }
     
-    static let encryptedRealm = Realm.Configuration(fileURL: URL.inDocumentFolder(fileName: "safe.realm"), objectTypes: [PasswordModel.self])
+   private static let encryptedRealm = Realm.Configuration(fileURL: URL.inDocumentFolder(fileName: "safe.realm"),
+                                                           objectTypes: [PasswordModel.self])
 }

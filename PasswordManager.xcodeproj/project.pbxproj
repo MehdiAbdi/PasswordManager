@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91192EC327E8CA62000D0085 /* PasswordManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91192EC227E8CA62000D0085 /* PasswordManagerViewModel.swift */; };
 		9121D4A527C8E50E0045BE43 /* EncryptionKey+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9121D4A427C8E50E0045BE43 /* EncryptionKey+String.swift */; };
 		9137B9F927AD0BF800972EEF /* RealmConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9137B9F827AD0BF800972EEF /* RealmConfiguration.swift */; };
 		9137B9FB27AD0C7B00972EEF /* PasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9137B9FA27AD0C7B00972EEF /* PasswordModel.swift */; };
 		9137B9FE27AD1D7500972EEF /* URL+inDocumentFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9137B9FD27AD1D7500972EEF /* URL+inDocumentFolder.swift */; };
 		916AFEE92799A980008C73D8 /* PasswordManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916AFEE82799A980008C73D8 /* PasswordManagerApp.swift */; };
-		916AFEEB2799A980008C73D8 /* PasswordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916AFEEA2799A980008C73D8 /* PasswordListView.swift */; };
+		916AFEEB2799A980008C73D8 /* PasswordCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916AFEEA2799A980008C73D8 /* PasswordCellView.swift */; };
 		916AFEED2799A982008C73D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916AFEEC2799A982008C73D8 /* Assets.xcassets */; };
 		916AFEF02799A982008C73D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916AFEEF2799A982008C73D8 /* Preview Assets.xcassets */; };
 		916AFEF82799B1E5008C73D8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 916AFEF72799B1E5008C73D8 /* RealmSwift */; };
 		91ADD88727D1359E003854D8 /* SafeRealmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ADD88627D1359E003854D8 /* SafeRealmViewModel.swift */; };
+		91D656A427E46B660017290A /* BlackBorderTextfield+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D656A327E46B660017290A /* BlackBorderTextfield+View.swift */; };
 		91E69D8F27CD1954001D386E /* AlertViewWithTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E69D8E27CD1954001D386E /* AlertViewWithTextfield.swift */; };
 		91FE60D027A6884100CE424B /* PasswordManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE60CF27A6884100CE424B /* PasswordManagerView.swift */; };
 		91FE60D327A68AB200CE424B /* AddPasswordBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE60D227A68AB200CE424B /* AddPasswordBtn.swift */; };
@@ -25,16 +27,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91192EC227E8CA62000D0085 /* PasswordManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerViewModel.swift; sourceTree = "<group>"; };
 		9121D4A427C8E50E0045BE43 /* EncryptionKey+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EncryptionKey+String.swift"; sourceTree = "<group>"; };
 		9137B9F827AD0BF800972EEF /* RealmConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfiguration.swift; sourceTree = "<group>"; };
 		9137B9FA27AD0C7B00972EEF /* PasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordModel.swift; sourceTree = "<group>"; };
 		9137B9FD27AD1D7500972EEF /* URL+inDocumentFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+inDocumentFolder.swift"; sourceTree = "<group>"; };
 		916AFEE52799A980008C73D8 /* PasswordManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		916AFEE82799A980008C73D8 /* PasswordManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerApp.swift; sourceTree = "<group>"; };
-		916AFEEA2799A980008C73D8 /* PasswordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordListView.swift; sourceTree = "<group>"; };
+		916AFEEA2799A980008C73D8 /* PasswordCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCellView.swift; sourceTree = "<group>"; };
 		916AFEEC2799A982008C73D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		916AFEEF2799A982008C73D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91ADD88627D1359E003854D8 /* SafeRealmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeRealmViewModel.swift; sourceTree = "<group>"; };
+		91D656A327E46B660017290A /* BlackBorderTextfield+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BlackBorderTextfield+View.swift"; sourceTree = "<group>"; };
 		91E69D8E27CD1954001D386E /* AlertViewWithTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewWithTextfield.swift; sourceTree = "<group>"; };
 		91FE60CF27A6884100CE424B /* PasswordManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerView.swift; sourceTree = "<group>"; };
 		91FE60D227A68AB200CE424B /* AddPasswordBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPasswordBtn.swift; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 			children = (
 				9137B9FD27AD1D7500972EEF /* URL+inDocumentFolder.swift */,
 				9121D4A427C8E50E0045BE43 /* EncryptionKey+String.swift */,
+				91D656A327E46B660017290A /* BlackBorderTextfield+View.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				91ADD88627D1359E003854D8 /* SafeRealmViewModel.swift */,
+				91192EC227E8CA62000D0085 /* PasswordManagerViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -124,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				91FE60D227A68AB200CE424B /* AddPasswordBtn.swift */,
-				916AFEEA2799A980008C73D8 /* PasswordListView.swift */,
+				916AFEEA2799A980008C73D8 /* PasswordCellView.swift */,
 				91FE60D427A68DFF00CE424B /* AddPasswordView.swift */,
 				91E69D8E27CD1954001D386E /* AlertViewWithTextfield.swift */,
 			);
@@ -218,12 +224,14 @@
 				91E69D8F27CD1954001D386E /* AlertViewWithTextfield.swift in Sources */,
 				9137B9F927AD0BF800972EEF /* RealmConfiguration.swift in Sources */,
 				91FE60D527A68DFF00CE424B /* AddPasswordView.swift in Sources */,
+				91192EC327E8CA62000D0085 /* PasswordManagerViewModel.swift in Sources */,
 				9137B9FE27AD1D7500972EEF /* URL+inDocumentFolder.swift in Sources */,
 				9121D4A527C8E50E0045BE43 /* EncryptionKey+String.swift in Sources */,
 				9137B9FB27AD0C7B00972EEF /* PasswordModel.swift in Sources */,
 				91FE60D027A6884100CE424B /* PasswordManagerView.swift in Sources */,
 				91ADD88727D1359E003854D8 /* SafeRealmViewModel.swift in Sources */,
-				916AFEEB2799A980008C73D8 /* PasswordListView.swift in Sources */,
+				91D656A427E46B660017290A /* BlackBorderTextfield+View.swift in Sources */,
+				916AFEEB2799A980008C73D8 /* PasswordCellView.swift in Sources */,
 				916AFEE92799A980008C73D8 /* PasswordManagerApp.swift in Sources */,
 				91FE60D327A68AB200CE424B /* AddPasswordBtn.swift in Sources */,
 				91FE60D827A68FE900CE424B /* DismissViewBtn.swift in Sources */,
@@ -354,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PasswordManager/Preview Content\"";
@@ -373,6 +382,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MehdiAbdi.PasswordManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -384,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PasswordManager/Preview Content\"";
@@ -403,6 +414,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MehdiAbdi.PasswordManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
